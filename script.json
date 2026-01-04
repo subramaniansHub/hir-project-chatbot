@@ -28,7 +28,7 @@
         "type": "question",
         "text": {
             "High_Empathy": "And what should I call you? I'd love to know your name.",
-            "High_Expertise": "State your preferred identifier."
+            "High_Expertise": "State your name."
         }
     },
     {
@@ -314,4 +314,5 @@
             "High_Expertise": "System entering standby mode."
         }
     }
+
 ]
