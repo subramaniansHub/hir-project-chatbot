@@ -1,0 +1,317 @@
+[
+    {
+        "id": "intro_1",
+        "type": "message",
+        "text": {
+            "High_Empathy": "Hello! I am so warm and happy to meet you. I'm here to be your personal skincare companion.",
+            "High_Expertise": "Welcome to Glow & Co. I am the AI Dermatological Assistant."
+        }
+    },
+    {
+        "id": "intro_2",
+        "type": "message",
+        "text": {
+            "High_Empathy": "I want to get to know you deeply so I can take the best care of your skin.",
+            "High_Expertise": "I will now conduct a comprehensive 50-point skin analysis protocol."
+        }
+    },
+    {
+        "id": "q1_age",
+        "type": "question",
+        "text": {
+            "High_Empathy": "To start, may I ask your age? This helps me understand your skin's stage of life.",
+            "High_Expertise": "Input your biological age for collagen density estimation."
+        }
+    },
+    {
+        "id": "q2_name",
+        "type": "question",
+        "text": {
+            "High_Empathy": "And what should I call you? I'd love to know your name.",
+            "High_Expertise": "State your preferred identifier."
+        }
+    },
+    {
+        "id": "section_demographics",
+        "type": "section_header",
+        "text": {
+            "High_Empathy": "--- Let's talk about YOU ---",
+            "High_Expertise": "--- DATA: DEMOGRAPHICS ---"
+        }
+    },
+    {
+        "id": "q3_skin_type",
+        "type": "question",
+        "text": {
+            "High_Empathy": "How would you describe your skin usually? Is it dry, oily, or maybe a mix?",
+            "High_Expertise": "Select primary skin classification: Dry, Oily, Combination, or Normal."
+        }
+    },
+    {
+        "id": "q4_sensitivity",
+        "type": "question",
+        "text": {
+            "High_Empathy": "Does your skin ever get red or itchy? I want to be extra gentle if it does.",
+            "High_Expertise": "Report any history of cutaneous reactivity or erythema."
+        }
+    },
+    {
+        "id": "q5_concerns_main",
+        "type": "question",
+        "text": {
+            "High_Empathy": "What is the one thing bothering you most about your skin right now?",
+            "High_Expertise": "Identify primary dermatological concern."
+        }
+    },
+    {
+        "id": "q6_concerns_secondary",
+        "type": "question",
+        "text": {
+            "High_Empathy": "Is there anything else? Even small things matter to me.",
+            "High_Expertise": "List secondary concerns if applicable."
+        }
+    },
+    {
+        "id": "q7_water_intake",
+        "type": "question",
+        "text": {
+            "High_Empathy": "Do you drink enough water during the day? Hydration is self-care!",
+            "High_Expertise": "Quantify daily H2O intake in liters."
+        }
+    },
+    {
+        "id": "q8_sleep",
+        "type": "question",
+        "text": {
+            "High_Empathy": "How have you been sleeping lately? Beauty sleep is real!",
+            "High_Expertise": "Average hours of sleep per circadian cycle."
+        }
+    },
+    {
+        "id": "q9_stress",
+        "type": "question",
+        "text": {
+            "High_Empathy": "Have you been feeling stressed? Stress can really show up on our skin.",
+            "High_Expertise": "Rate current cortisol/stress levels on a scale of 1-10."
+        }
+    },
+    {
+        "id": "q10_diet",
+        "type": "question",
+        "text": {
+            "High_Empathy": "Do you eat a lot of veggies and fruits? They make your skin glow!",
+            "High_Expertise": "Assess dietary antioxidant consumption frequency."
+        }
+    },
+    {
+        "id": "q11_sun_exposure",
+        "type": "question",
+        "text": {
+            "High_Empathy": "Do you spend a lot of time out in the sun?",
+            "High_Expertise": "Estimate weekly UV exposure hours."
+        }
+    },
+    {
+        "id": "q12_sunscreen_use",
+        "type": "question",
+        "text": {
+            "High_Empathy": "And do you remember to wear sunscreen? It's the best protection.",
+            "High_Expertise": "Confirm SPF application frequency: Daily, Occasional, or Never."
+        }
+    },
+    {
+        "id": "q13_makeup",
+        "type": "question",
+        "text": {
+            "High_Empathy": "Do you wear makeup often? I love a good look, but we need to cleanse it off!",
+            "High_Expertise": "Frequency of cosmetic application."
+        }
+    },
+    {
+        "id": "q14_cleanser_type",
+        "type": "question",
+        "text": {
+            "High_Empathy": "When you wash your face, do you like foam or something creamy?",
+            "High_Expertise": "Preferred surfactant vehicle: Foaming vs. Emollient."
+        }
+    },
+    {
+        "id": "q15_exfoliation",
+        "type": "question",
+        "text": {
+            "High_Empathy": "Do you use scrubs or peels? Sometimes they can be harsh.",
+            "High_Expertise": "Frequency of physical or chemical exfoliation."
+        }
+    },
+    {
+        "id": "q16_toner",
+        "type": "question",
+        "text": {
+            "High_Empathy": "Do you use a toner? It can be refreshing.",
+            "High_Expertise": "Current usage of pH-balancing astringents."
+        }
+    },
+    {
+        "id": "q17_serum_use",
+        "type": "question",
+        "text": {
+            "High_Empathy": "Have you tried serums before? They are like magic potions for skin.",
+            "High_Expertise": "Current usage of concentrated active serums."
+        }
+    },
+    {
+        "id": "q18_eye_cream",
+        "type": "question",
+        "text": {
+            "High_Empathy": "Do you use anything for the delicate eye area?",
+            "High_Expertise": "Application of orbital skincare products."
+        }
+    },
+    {
+        "id": "q19_moisturizer",
+        "type": "question",
+        "text": {
+            "High_Empathy": "Do you use a moisturizer every day?",
+            "High_Expertise": "Consistency of lipid barrier reinforcement (moisturizer)."
+        }
+    },
+    {
+        "id": "q20_texture_pref",
+        "type": "question",
+        "text": {
+            "High_Empathy": "Do you hate it when creams feel sticky? Or do you like that rich feeling?",
+            "High_Expertise": "Texture preference: fast-absorbing vs. occlusive film."
+        }
+    },
+    {
+        "id": "q21_fragrance",
+        "type": "question",
+        "text": {
+            "High_Empathy": "Do you like your products to smell like flowers or nothing at all?",
+            "High_Expertise": "Tolerance for synthetic or natural fragrance components."
+        }
+    },
+    {
+        "id": "q22_packaging",
+        "type": "question",
+        "text": {
+            "High_Empathy": "Do you prefer pumps or jars? We want it to be easy for you.",
+            "High_Expertise": "Preferred dispensing mechanism."
+        }
+    },
+    {
+        "id": "q23_budget",
+        "type": "question",
+        "text": {
+            "High_Empathy": "How much are you comfortable spending on a treat for yourself?",
+            "High_Expertise": "Define budgetary constraints for regimen construction."
+        }
+    },
+    {
+        "id": "q24_time",
+        "type": "question",
+        "text": {
+            "High_Empathy": "How much time do you have in the mornings? I know you're busy.",
+            "High_Expertise": "Maximum duration available for AM protocol."
+        }
+    },
+    {
+        "id": "q25_climate",
+        "type": "question",
+        "text": {
+            "High_Empathy": "Is the air where you live dry or humid right now?",
+            "High_Expertise": "Current environmental humidity levels."
+        }
+    },
+    {
+        "id": "product_intro_1",
+        "type": "message",
+        "text": {
+            "High_Empathy": "Thank you for sharing all that. I feel like I know your skin so well now.",
+            "High_Expertise": "Data collection complete. Processing optimal formulation match."
+        }
+    },
+    {
+        "id": "product_reveal_1",
+        "type": "message",
+        "text": {
+            "High_Empathy": "I strictly recommend starting with a gentle cleanser. This one is like a cloud!",
+            "High_Expertise": "Step 1: Hydro-Lipid Cleansing Gel. Essential for microbiome preservation."
+        },
+        "image": "assets/product_cleanser.png"
+    },
+    {
+        "id": "q26_cleanser_reaction",
+        "type": "question",
+        "text": {
+            "High_Empathy": "Doesn't it look soothing? What do you think?",
+            "High_Expertise": "Confirm acceptance of Step 1."
+        }
+    },
+    {
+        "id": "product_reveal_2",
+        "type": "message",
+        "text": {
+            "High_Empathy": "Next, this serum is my favorite. It's golden and precious, just like you.",
+            "High_Expertise": "Step 2: 5% Niacinamide Serum. Clinical data shows 40% reduction in redness."
+        },
+        "image": "assets/product_serum.png"
+    },
+    {
+        "id": "q27_serum_reaction",
+        "type": "question",
+        "text": {
+            "High_Empathy": "Can you imagine using this every night?",
+            "High_Expertise": "Confirm acceptance of Step 2."
+        }
+    },
+    {
+        "id": "product_reveal_3",
+        "type": "message",
+        "text": {
+            "High_Empathy": "Finally, this cream will wrap your skin in a hug.",
+            "High_Expertise": "Step 3: Ceramide Barrier Repair Cream. Occlusive agent."
+        },
+        "image": "assets/product_cream.png"
+    },
+    {
+        "id": "q28_cream_reaction",
+        "type": "question",
+        "text": {
+            "High_Empathy": "It looks so rich, doesn't it?",
+            "High_Expertise": "Confirm acceptance of Step 3."
+        }
+    },
+    {
+        "id": "q29_routine_commitment",
+        "type": "question",
+        "text": {
+            "High_Empathy": "Do you think you could do this 3-step routine?",
+            "High_Expertise": "Evaluate compliance probability for 3-step protocol."
+        }
+    },
+    {
+        "id": "q30_expectations",
+        "type": "question",
+        "text": {
+            "High_Empathy": "What are you hoping to see in your skin in a month?",
+            "High_Expertise": "Define 30-day efficacy success metrics."
+        }
+    },
+    {
+        "id": "closing_1",
+        "type": "message",
+        "text": {
+            "High_Empathy": "You are going to do great. I believe in you!",
+            "High_Expertise": "Regimen generation complete."
+        }
+    },
+    {
+        "id": "closing_2",
+        "type": "message",
+        "text": {
+            "High_Empathy": "I'm always here if you need a friend or skincare advice.",
+            "High_Expertise": "System entering standby mode."
+        }
+    }
+]

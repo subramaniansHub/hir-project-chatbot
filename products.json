@@ -1,0 +1,30 @@
+[
+    {
+        "id": "p1",
+        "name": "Hydro-Glow Deep Moisture Gel",
+        "description": "A lightweight, oil-free water gel that instantly quenches dry skin and boosts it with simulated hydration.",
+        "price": "$19.99",
+        "category": "Hydration"
+    },
+    {
+        "id": "p2",
+        "name": "Hyaluronic Cloud Cream",
+        "description": "Rich cream with 30% hyaluronic acid complex that draws in water and plumps the look of skin.",
+        "price": "$45.00",
+        "category": "Hydration"
+    },
+    {
+        "id": "p3",
+        "name": "Daily Dew Drops Serum",
+        "description": "A serum packed with Vitamin B5 and watermelon extract to soothe and hydrate thirsty skin.",
+        "price": "$28.00",
+        "category": "Hydration"
+    },
+    {
+        "id": "p4",
+        "name": "Ultra-Restore Barrier Balm",
+        "description": "Intensive hydration for sensitive skin, helping to repair the moisture barrier with ceramides.",
+        "price": "$32.50",
+        "category": "Hydration"
+    }
+]
