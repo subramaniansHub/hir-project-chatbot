@@ -6,7 +6,7 @@ import json
 
 # Page Config
 st.set_page_config(
-    page_title="Hir's Glow Support",
+    page_title="Hir Glow Care",
     page_icon="✨",
     layout="centered"
 )
@@ -65,7 +65,7 @@ col1, col2 = st.columns([1, 4])
 with col1:
     st.image("assets/avatar.png", use_container_width=True)
 with col2:
-    st.title("Hir's Glow Support")
+    st.title("Hir Glow Care")
     st.caption("Your personal skincare assistant")
 
 # Display Chat History
@@ -170,4 +170,5 @@ if st.session_state.messages and st.session_state.messages[-1]["role"] == "user"
             else:
                 st.error("There was an error saving your response. Please contact the administrator.")
             # st.stop()
+
 
